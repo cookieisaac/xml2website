@@ -1,0 +1,26 @@
+<website>
+	<page name="index" title="Home Page">
+		<h1>Welcome to Ike's Home Page</h1>
+		<p>Hi there. My name is Ike and this is my home page. Here are some stuff I am currently learning</p>
+		
+		<ul>
+			<li><a href="learning/arch.html">Architectures of open source software</a></li>
+			<li><a href="learning/python.html">Hands on implementation of non-trivial python projects</a></li>
+			<li><a href="learning/spark.html">Spark code read through</a></li>
+		</ul>
+	</page>
+	<directory name="learning">
+		<page name="arch" title="Open Source Architecture">
+			<h1>Architecture</h1>
+			<p>Ike is learning the architecture of different open source software</p>
+		</page>
+		<page name="python" title="Python Implementation">
+			<h1>Python</h1>
+			<p>Ike is coding lots of python projects</p>
+		</page>
+		<page name="spark" title="Spark design">
+			<h1>Spark</h1>
+			<p>Ike is reading through spark code base</p>
+		</page>
+	</directory>
+</website>
